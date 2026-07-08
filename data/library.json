@@ -1,0 +1,30 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Clean Code",
+            "author": "Robert Martin",
+            "category": "Programming",
+            "publishYear": 2008,
+            "isAvailable": false
+        },
+        {
+            "id": 2,
+            "title": "The Pragmatic Programmer",
+            "author": "David Thomas",
+            "category": "Programming",
+            "publishYear": 1999,
+            "isAvailable": true
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "name": "AdhamYaqoub",
+            "email": "eng.adhamyaqoub@gmail.com",
+            "borrowedBooks": [
+                1
+            ]
+        }
+    ]
+}

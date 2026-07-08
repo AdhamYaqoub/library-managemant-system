@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Exceptions;
+
+use Exception;
+
+class BookNotFoundException extends Exception
+{
+    public function __construct(
+        string $message = "Book not found."
+    ) {
+        parent::__construct($message);
+    }
+}
